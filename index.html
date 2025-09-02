@@ -1,0 +1,49 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Basketball Scoreboard</title>
+    <!-- By Zedd d Programmer 09/01/2025-->
+</head>
+    <body>
+        <div class="container">
+            <div>
+                <div class="heading">
+                    <h3 >HOME</h3>
+                </div>
+                <div class = "scoreBox">
+                    <p id="homeScore">0</p>
+                </div>  
+                <div class="incrContainer">
+                    <button class="incrBox" onclick="increment1('home')">+1</button>
+                    <button class="incrBox" onclick="increment2('home')">+2</button>
+                    <button class="incrBox" onclick="increment3('home')">+3</button>
+                </div> 
+            </div>
+            
+            <div>
+                <div class="heading">
+                    <h3 >GUEST</h3>
+                </div>
+                <div class = "scoreBox">
+                    <p id="guestScore">0</p>
+                </div> 
+                <div class="incrContainer">
+                    <button class="incrBox" onclick="increment1('guest')">+1</button>
+                    <button class="incrBox" onclick="increment2('guest')">+2</button>
+                    <button class="incrBox" onclick="increment3('guest')">+3</button>
+                </div>   
+                <div>
+                      <button class = "reset" onclick="reset()">NEW GAME</button>
+                </div>
+            </div>
+
+        </div>
+
+
+        
+        <script src="index.js"></script>
+    </body>
+</html>
